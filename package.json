@@ -1,0 +1,44 @@
+{
+  "name": "@certified-content/core",
+  "version": "1.0.0",
+  "description": "Core component library for Certified Content",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthupadhye/certified-components.git"
+  },
+  "keywords": [
+    "certified",
+    "content",
+    "verification"
+  ],
+  "author": "Parth Upadhye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthupadhye/certified-components/issues"
+  },
+  "homepage": "https://github.com/parthupadhye/certified-components#readme",
+  "devDependencies": {
+    "@angular/core": "^17.3.7",
+    "@types/react": "^18.3.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "rxjs": "^7.8.1",
+    "zone.js": "^0.14.6"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=17.0.0",
+    "react": ">=18.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
